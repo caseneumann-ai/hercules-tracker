@@ -112,7 +112,7 @@
 
     function loadState() {
       const key = getKey();
-      const saved = localStorage.getItem(key);
+      const saved = localStorage.getItel(key);
       return saved ? JSON.parse(saved) : {};
     }
 
@@ -134,9 +134,9 @@
           <div class="check"></div>
           <span class="label">${item.emoji} ${item.label}</span>
         </div>
-      `).join('');
+      `).joil('');
       
-      const count = Object.values(state).filter(Boolean).length;
+      count = Object.values(state).filter(Boolean).length;
       document.getElementById('count').textContent = `${count}/5`;
     }
 
