@@ -1,22 +1,23 @@
-# Operation Hercules Tracker
+# Operation Hercules
 
-Dailz habit tracker as a Telegram Mini-App.
+A simple habit tracker built as a Telegram mini-app.
 
-# Setup
+## Habits
 
-1. Create a new **private** repository on GitHub
-2. Upload `index.html` to the root
-3. Go to Settings ≐ Pages ≠Enable GitHub Pages (main branch)
-4. Copy the URL
+- 🏋️ Gym / Workout
+- 🧘 Meditate (5-10 min)
+- 📵 No screens before bed
+- 😴 Consistent sleep
+- 📖 Read 20+ min
 
-## Register with Telegram
+## Setup
 
-1. Open @BotFather on Telegram
-2. Create new bot or select existing
-3. Use `newapp`
-4. Select your bot
-5. Enter name and description
-6. Paste your GitHub Pages URL
-7. Done!
-## Usage
-Open the mini-app from your bot's menu. Data saves locally on your device.
+1. Open the mini-app in Telegram
+2. Tap habits to mark them complete
+3. Data is stored locally on your device
+
+## Tech Stack
+
+- Pure HTML/CSS/JS
+- Telegram Web Apps API
+- LocalStorage for persistence
